@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Estilos para el encabezado */
+.header {
+    padding: 20px;
+    background-color: #85d7ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo {
+    margin-right: 20px;
+}
+
+.header h1, .header p {
+    color: white;
+}
+
+.logopersonal{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+/* Estilos para las secciones */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #85d7ff;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Estilos para las imágenes de los logos */
+.logo {
+    width: 30px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para el vídeo de fondo */
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-video {
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+/* Estilos para la sección de contactos */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icon {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icon img {
+    width: 50px;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Personal</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay loop muted class="background-video" id="backgroundVideo">
+            <source src="https://videos.pexels.com/video-files/3130284/3130284-uhd_3840_2160_30fps.mp4" type="video/mp4">
+            Tu navegador no admite el elemento de vídeo.
+        </video>
+    </div>
+
+    <div class="header">
+        <img src="media/logo.png" alt="Mi Logo Personal" class="logopersonal">
+        <div class="header-content">
+            <h1>¡Bienvenidx a mi página personal!</h1>
+            <p>Egresada de la licenciatura en Química y certificada como programadora Java Jr. por la Agencia Digital de Innovación Pública (ADIP)</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <section class="intro-section">
+            <h2>Introducción</h2>
+            <p>Hola, soy Verónica Daniela Chávez Hinojosa, tengo 24 años. Me apasiona la programación y estoy enfocada en aprender y crecer como desarrolladora fullstack junior. Esta página web es una muestra de mis habilidades y experiencia.</p>
+        </section>
+
+        <section class="hobbies-section">
+            <h2>Hobbies</h2>
+            <p>Gimnasio, Leer, Pintar, Ver series y películas, Repostería, Museos, Teatro, entre otras cosas.</p>
+        </section>
+
+        <section class="skills-section">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>Python</li>
+                <li>R</li>
+                <li>Excel</li>
+            </ul>
+        </section>
+
+        <section class="contact-section">
+            <h2>Contacto</h2>
+            <div class="contact-icons">
+                <a href="https://api.whatsapp.com/send?phone=5512811542" class="contact-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="logo">
+                    <span>WhatsApp</span>
+                </a>
+                <a href="mailto:veronicachgd@gmail.com" class="contact-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" class="logo">
+                    <span>Gmail</span>
+                </a>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; Gato Daltónico 2024 - Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('backgroundVideo');
+            video.play().catch(error => {
+                console.error('No se pudo reproducir el vídeo:', error);
+            });
+        });
+    </script>
+</body>
+</html>
